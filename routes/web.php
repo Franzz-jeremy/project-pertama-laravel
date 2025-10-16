@@ -21,3 +21,12 @@ Route::get('/profil', function () {
 Route::get('/mahasiswa', function () {
     return view('mahasiswa');
 });
+
+Route::get('/array', function () {
+   //array
+    $nilai_awal = 1;
+    while ($nilai_awal <= 100) {
+        echo "Hello Laravel " . $nilai_awal ."x<br>";
+        $nilai_awal++;
+    }
+});
