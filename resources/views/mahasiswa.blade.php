@@ -35,9 +35,41 @@
   </div>
 </nav>
 
-<div class="container" style="
- margin-left: 30px">
+<div class="container">
    <h1>INI HALAMAN MAHASISWA</h1>
+
+   <table class="table table-sm table-hover table-danger table-bordered text-center">
+    <thead>
+<tr>
+    <th>NIM</th>
+    <th>Nama Mahasiswa</th>
+    <th>Jenis kelamin</th>
+    <th colspan="2">Tempat Tanggal lahir</th>
+</tr>
+    </thead>
+    <tbody>
+        <tr>
+    <th>124</th>
+    <th>AZIS</th>
+    <th>laki-laki</th>
+    <th>18-12-2005</th>
+    <th rowspan="3">Kota Medan</th>
+        </tr>
+         <tr>
+    <th>125</th>
+    <th>NASUTION</th>
+    <th>laki-laki</th>
+    <th>18-12-2005</th>
+        </tr>
+         <tr>
+    <th>123</th>
+    <th>ABDUL</th>
+    <th>laki-laki</th>
+    <th>18-12-2005</th>
+        </tr>
+    </tbody>
+   </table>
+
 </div>
 
 </body>
