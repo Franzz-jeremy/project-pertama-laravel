@@ -19,7 +19,10 @@ Route::get('/profil', function () {
 });
 
 Route::get('/mahasiswa', function () {
-    return view('mahasiswa');
+    $npm = [123, 124, 125, 126];
+    $nama = ['jono', 'Joni', 'Juna', 'Jena'];
+    $jumlah = count($npm);
+    return view('mahasiswa', compact('npm', 'nama', 'jumlah'));
 });
 
 Route::get('/array', function () {
