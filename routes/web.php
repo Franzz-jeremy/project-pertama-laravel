@@ -30,3 +30,10 @@ Route::get('/array', function () {
         $nilai_awal++;
     }
 });
+
+Route::get('/for', function () {
+   //for
+   for ($i = 1; $i <= 5; $i++) {
+       echo "Hello world " . $i ."x<br>";
+   }
+});
